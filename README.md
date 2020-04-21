@@ -71,7 +71,11 @@ Above command should generate the telegraf binary under telegraf directory.
 
 2.6. Copy the telegraf binary generated to path **/usr/bin**.
 
-2.7. Create the telegraf service (not necessary but recommended):
+2.7. Make the telegraf binary executable by running command:
+```bash
+# chmod 755 telegraf
+```
+2.8. Create the telegraf service (not necessary but recommended):
 Reference link to create service: https://www.linode.com/docs/quick-answers/linux/start-service-at-boot/
 
 Sample configurations for Telegraf service: https://github.com/influxdata/telegraf/blob/master/scripts/telegraf.service
@@ -91,4 +95,3 @@ append follow lines to the telegraf.conf file to enable the ClickHouse output pl
 	write_timeout = 10
 	debug = false
 ```
-
