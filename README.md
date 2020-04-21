@@ -75,6 +75,7 @@ Above command should generate the telegraf binary under telegraf directory.
 # chmod 755 telegraf
 ```
 2.8. Create the telegraf service (not necessary but recommended):
+
 Reference link to create service: https://www.linode.com/docs/quick-answers/linux/start-service-at-boot/
 
 Sample configurations for Telegraf service: https://github.com/influxdata/telegraf/blob/master/scripts/telegraf.service
