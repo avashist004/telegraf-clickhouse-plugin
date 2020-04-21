@@ -1,12 +1,11 @@
 # Telegraf output plugin 
 -----
 
-**This is not an official Paratera product**
+**The steps below are described in reference with CentOS 7. Created for personal usage.**
 
 ## 1. How to use
 
 Binary for the Telegraf needs to be created from source in order to use the telegraf clickhouse plugin.
-The steps below are described in reference with CentOS 7.
 
 **PreRequisite**
 
